@@ -36,7 +36,7 @@ public class QuickReportCommandHandler extends CommandBase {
         // TODO Auto-generated method stub
         if(args.length>0){
             Minecraft.getMinecraft().thePlayer.addChatMessage(new ChatComponentText(EnumChatFormatting.RED + "Reporting " + args[0]));
-            Minecraft.getMinecraft().thePlayer.sendChatMessage("/wdr " + args[0] + " killaura autoclicker reach speed antikb");
+            Minecraft.getMinecraft().thePlayer.sendChatMessage("/wdr " + args[0] + " killaura autoclicker reach speed antikb fasteat aimbot regen x-ray nofall criticals fly speed spider step liquidwalk velocity strafe scaffold dolphin fastsneak tracers antiafk fastplace fastbreak safewalk chestaura cheststeal antibot esp healthtags holoinventory");
             Collection<NetworkPlayerInfo> playerInfoCollection = Minecraft.getMinecraft().getNetHandler().getPlayerInfoMap();
             for (NetworkPlayerInfo networkPlayerInfo : playerInfoCollection) {
                 if (networkPlayerInfo.getGameProfile().getName().equalsIgnoreCase(args[0])){
