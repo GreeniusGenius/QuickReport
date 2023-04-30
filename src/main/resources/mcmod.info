@@ -5,11 +5,11 @@
   "description": "/qr to run /wdr without having to type all the arguments. Also tell you if you queue with someone you previously reported",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "",
-  "updateUrl": "",
+  "url": "https://github.com/GreeniusGenius/QuickReport",
+  "updateUrl": "https://github.com/GreeniusGenius/QuickReport/releases/latest",
   "authorList": ["DaCubeKing"],
-  "credits": "DaCubeKing",
-  "logoFile": "",
+  "credits": "DaCubeKing", "GreeniusGenius"
+  "logoFile": "src/main/resources/QuickReportIcon.png",
   "screenshots": [],
   "dependencies": []
 }
